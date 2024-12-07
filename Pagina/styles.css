@@ -1,0 +1,163 @@
+/* General body settings */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  /* Barra de título */
+  .header {
+    background-color: #4B0082;  /* Color morado oscuro */
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  /* Logo */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 1rem;
+  }
+  
+  /* Barra de navegación */
+  .nav-bar {
+    background-color: #6A0DAD;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+  
+  .nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-bar a:hover {
+    background-color: #D8BFD8;
+    color: #4B0082;
+  }
+  
+  /* Sección de imagen */
+  .image-section {
+    margin-top: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #4B0082;
+  }
+  
+  /* Acerca de mí */
+  .about-me {
+    margin: 2rem 0;
+    padding: 1rem;
+    max-width: 800px;
+  }
+  
+  .about-me h2 {
+    font-size: 1.5rem;
+    color: #4B0082;
+  }
+  
+  /* Mis fortalezas */
+  .strengths {
+    margin: 2rem 0;
+    padding: 1rem;
+    max-width: 800px;
+  }
+  
+  .strengths h2 {
+    font-size: 1.5rem;
+    color: #4B0082;
+  }
+  
+  .strengths ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .strengths li {
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+  }
+  
+  /* Trabajos */
+  .work {
+    margin: 2rem 0;
+    padding: 1rem;
+    max-width: 800px;
+  }
+  
+  .work h2 {
+    font-size: 1.5rem;
+    color: #4B0082;
+  }
+  
+  .work-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Formulario de contacto */
+  .contact-form {
+    margin: 2rem 0;
+    padding: 1rem;
+    max-width: 800px;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.5rem;
+    color: #4B0082;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    padding: 0.8rem 2rem;
+    border: none;
+    background-color: #4B0082;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #6A0DAD;
+  }
+  
